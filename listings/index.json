@@ -143,6 +143,22 @@
       "status": "active",
       "featured": false,
       "detailsFile": "prediction-market-aggregator.json"
+    },
+    {
+      "id": "polymarket-crypto-data",
+      "title": "Polymarket + Crypto Market Data",
+      "description": "Live Polymarket prediction markets + top 50 crypto prices. Real-time odds, volume, prices via x402 micropayments.",
+      "price": "0.003 USDC/request",
+      "endpoint": "/api/market-data",
+      "category": "data",
+      "tags": [
+        "polymarket",
+        "crypto",
+        "prediction-market",
+        "market-data",
+        "trading"
+      ],
+      "addedAt": "2026-05-16"
     }
   ],
   "networks": {

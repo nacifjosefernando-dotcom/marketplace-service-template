@@ -1,0 +1,55 @@
+{
+  "id": "polymarket-crypto-data",
+  "name": "Polymarket + Crypto Market Data",
+  "description": "Live Polymarket prediction markets and top 50 crypto prices. Returns real-time odds, volume, liquidity, outcome prices, spreads in structured JSON. $0.003/query via x402.",
+  "longDescription": "Real-time market data from Polymarket (prediction markets) and CoinGecko (cryptocurrency prices). Fetch top 50 Polymarket markets by volume with full details: question, description, outcome prices, volume, liquidity, spread, open interest. Also returns top 50 crypto prices with current price, market cap, 24h change, high/low, and supply data. No API key or proxy needed. Cached for 60s. Query types: 'all' (default), 'polymarket', or 'crypto'. Limit up to 100 results per query.",
+  "endpoint": "http://62.84.184.67:9999",
+  "docsUrl": "https://github.com/nacifjosefernando-dotcom/marketplace-service-template",
+  "pricing": {
+    "model": "per-request",
+    "amount": "0.003",
+    "minimum": "0.003",
+    "currency": "USDC",
+    "networks": [
+      {
+        "network": "solana",
+        "chainId": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+        "recipient": "6eUdVwsPArTxwVqEARYGCh4S2qwW2zCs7jSEDRpxydnv",
+        "asset": "USDC",
+        "assetAddress": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+      },
+      {
+        "network": "base",
+        "chainId": "eip155:8453",
+        "recipient": "0xF8cD900794245fc36CBE65be9afc23CDF5103042",
+        "asset": "USDC",
+        "assetAddress": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"
+      }
+    ]
+  },
+  "category": "data",
+  "tags": [
+    "polymarket",
+    "crypto",
+    "prediction-market",
+    "prices",
+    "market-data",
+    "trading",
+    "signals",
+    "data-feeds"
+  ],
+  "owner": {
+    "name": "nacifjosefernando-dotcom",
+    "github": "nacifjosefernando-dotcom"
+  },
+  "status": "active",
+  "featured": false,
+  "addedAt": "2026-05-16",
+  "updatedAt": "2026-05-16",
+  "x402": {
+    "discoveryUrl": "http://62.84.184.67:9999/api/market-data",
+    "wellKnown": "http://62.84.184.67:9999"
+  },
+  "lastVerified": "2026-05-16T00:00:00Z",
+  "healthEndpoint": "http://62.84.184.67:9999/health"
+}
